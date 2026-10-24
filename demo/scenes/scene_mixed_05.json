@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "scene_mixed_05",
+  "site": {
+    "name": "Demo Solar Park (fictional)",
+    "sector": "Sector 4",
+    "array": "B"
+  },
+  "image_size": {
+    "width": 632,
+    "height": 680
+  },
+  "temperature_source": "synthetic",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 43.55,
+  "detections": [
+    {
+      "id": "D-0000",
+      "row": 0,
+      "col": 0,
+      "bbox": [
+        8,
+        8,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Hot-Spot",
+      "agent_category": "hotspot",
+      "confidence": 0.34,
+      "top3": [
+        [
+          "Hot-Spot",
+          0.3396
+        ],
+        [
+          "Vegetation",
+          0.2332
+        ],
+        [
+          "No-Anomaly",
+          0.1677
+        ]
+      ],
+      "max_temp_c": 41.98,
+      "delta_t_c": -1.57,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0009",
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        320,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Cell-Multi",
+      "agent_category": "hotspot",
+      "confidence": 0.38,
+      "top3": [
+        [
+          "Cell-Multi",
+          0.3796
+        ],
+        [
+          "No-Anomaly",
+          0.1835
+        ],
+        [
+          "Cell",
+          0.1611
+        ]
+      ],
+      "max_temp_c": 42.74,
+      "delta_t_c": -0.81,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0014",
+      "row": 3,
+      "col": 1,
+      "bbox": [
+        216,
+        344,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.466,
+      "top3": [
+        [
+          "Offline-Module",
+          0.466
+        ],
+        [
+          "No-Anomaly",
+          0.393
+        ],
+        [
+          "Diode-Multi",
+          0.044
+        ]
+      ],
+      "max_temp_c": 47.09,
+      "delta_t_c": 3.54,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 24,
+    "n_predicted_anomalies": 3,
+    "n_temperature_alerts": 0
+  }
+}

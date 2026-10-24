@@ -1,0 +1,18 @@
+                precision    recall  f1-score   support
+
+          Cell       0.65      0.59      0.62       281
+    Cell-Multi       0.46      0.41      0.43       193
+      Cracking       0.72      0.61      0.66       141
+         Diode       0.98      0.89      0.93       225
+   Diode-Multi       0.92      0.92      0.92        26
+      Hot-Spot       0.50      0.73      0.59        37
+Hot-Spot-Multi       0.50      0.41      0.45        37
+    No-Anomaly       0.91      0.93      0.92      1500
+Offline-Module       0.55      0.68      0.61       124
+     Shadowing       0.77      0.64      0.69       159
+       Soiling       0.56      0.32      0.41        31
+    Vegetation       0.58      0.73      0.65       246
+
+      accuracy                           0.79      3000
+     macro avg       0.67      0.65      0.66      3000
+  weighted avg       0.79      0.79      0.79      3000

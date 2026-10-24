@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "scene_critical_01",
+  "site": {
+    "name": "Demo Solar Park (fictional)",
+    "sector": "Sector 4",
+    "array": "B"
+  },
+  "image_size": {
+    "width": 632,
+    "height": 680
+  },
+  "temperature_source": "synthetic",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 42.11,
+  "detections": [
+    {
+      "id": "D-0005",
+      "row": 0,
+      "col": 3,
+      "bbox": [
+        528,
+        8,
+        96,
+        160
+      ],
+      "hot_cell_bbox": [
+        564,
+        80,
+        24,
+        16
+      ],
+      "ml_class": "No-Anomaly",
+      "agent_category": "none",
+      "confidence": 0.63,
+      "top3": [
+        [
+          "No-Anomaly",
+          0.6296
+        ],
+        [
+          "Shadowing",
+          0.0919
+        ],
+        [
+          "Hot-Spot",
+          0.0568
+        ]
+      ],
+      "max_temp_c": 95.0,
+      "delta_t_c": 52.89,
+      "flag_reason": "temperature"
+    },
+    {
+      "id": "D-0007",
+      "row": 1,
+      "col": 0,
+      "bbox": [
+        112,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Diode",
+      "agent_category": "bypass_diode_failure",
+      "confidence": 0.956,
+      "top3": [
+        [
+          "Diode",
+          0.9559
+        ],
+        [
+          "Diode-Multi",
+          0.0207
+        ],
+        [
+          "Hot-Spot",
+          0.0052
+        ]
+      ],
+      "max_temp_c": 73.99,
+      "delta_t_c": 31.88,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0011",
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        528,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.282,
+      "top3": [
+        [
+          "Offline-Module",
+          0.2823
+        ],
+        [
+          "No-Anomaly",
+          0.2738
+        ],
+        [
+          "Vegetation",
+          0.1646
+        ]
+      ],
+      "max_temp_c": 40.89,
+      "delta_t_c": -1.22,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0016",
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        424,
+        344,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Vegetation",
+      "agent_category": "vegetation",
+      "confidence": 0.282,
+      "top3": [
+        [
+          "Vegetation",
+          0.2821
+        ],
+        [
+          "Cell",
+          0.2459
+        ],
+        [
+          "Cell-Multi",
+          0.2443
+        ]
+      ],
+      "max_temp_c": 84.92,
+      "delta_t_c": 42.81,
+      "flag_reason": "model_and_temperature"
+    },
+    {
+      "id": "D-0020",
+      "row": 5,
+      "col": 1,
+      "bbox": [
+        216,
+        512,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Cell",
+      "agent_category": "hotspot",
+      "confidence": 0.635,
+      "top3": [
+        [
+          "Cell",
+          0.6353
+        ],
+        [
+          "Cell-Multi",
+          0.1623
+        ],
+        [
+          "Soiling",
+          0.0968
+        ]
+      ],
+      "max_temp_c": 49.37,
+      "delta_t_c": 7.26,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 24,
+    "n_predicted_anomalies": 4,
+    "n_temperature_alerts": 2
+  }
+}

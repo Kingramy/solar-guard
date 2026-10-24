@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "scene_dusty_03",
+  "site": {
+    "name": "Demo Solar Park (fictional)",
+    "sector": "Sector 4",
+    "array": "B"
+  },
+  "image_size": {
+    "width": 632,
+    "height": 680
+  },
+  "temperature_source": "synthetic",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 43.2,
+  "detections": [
+    {
+      "id": "D-0000",
+      "row": 0,
+      "col": 0,
+      "bbox": [
+        8,
+        8,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Soiling",
+      "agent_category": "soiling",
+      "confidence": 0.604,
+      "top3": [
+        [
+          "Soiling",
+          0.6041
+        ],
+        [
+          "Cracking",
+          0.2163
+        ],
+        [
+          "Hot-Spot-Multi",
+          0.1343
+        ]
+      ],
+      "max_temp_c": 57.69,
+      "delta_t_c": 14.49,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0003",
+      "row": 0,
+      "col": 2,
+      "bbox": [
+        320,
+        8,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Cracking",
+      "agent_category": "cracking",
+      "confidence": 0.914,
+      "top3": [
+        [
+          "Cracking",
+          0.9142
+        ],
+        [
+          "Cell-Multi",
+          0.0676
+        ],
+        [
+          "Soiling",
+          0.0081
+        ]
+      ],
+      "max_temp_c": 52.89,
+      "delta_t_c": 9.69,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0008",
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        216,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Soiling",
+      "agent_category": "soiling",
+      "confidence": 0.753,
+      "top3": [
+        [
+          "Soiling",
+          0.7534
+        ],
+        [
+          "Cell",
+          0.0749
+        ],
+        [
+          "Cell-Multi",
+          0.0404
+        ]
+      ],
+      "max_temp_c": 55.05,
+      "delta_t_c": 11.85,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0011",
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        528,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Soiling",
+      "agent_category": "soiling",
+      "confidence": 0.545,
+      "top3": [
+        [
+          "Soiling",
+          0.5449
+        ],
+        [
+          "Cracking",
+          0.2479
+        ],
+        [
+          "Vegetation",
+          0.0879
+        ]
+      ],
+      "max_temp_c": 51.0,
+      "delta_t_c": 7.8,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0013",
+      "row": 3,
+      "col": 0,
+      "bbox": [
+        112,
+        344,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Hot-Spot-Multi",
+      "agent_category": "hotspot",
+      "confidence": 0.379,
+      "top3": [
+        [
+          "Hot-Spot-Multi",
+          0.3793
+        ],
+        [
+          "Hot-Spot",
+          0.2332
+        ],
+        [
+          "Soiling",
+          0.1335
+        ]
+      ],
+      "max_temp_c": 56.65,
+      "delta_t_c": 13.45,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0016",
+      "row": 3,
+      "col": 2,
+      "bbox": [
+        424,
+        344,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Soiling",
+      "agent_category": "soiling",
+      "confidence": 0.753,
+      "top3": [
+        [
+          "Soiling",
+          0.7534
+        ],
+        [
+          "Cell",
+          0.0749
+        ],
+        [
+          "Cell-Multi",
+          0.0404
+        ]
+      ],
+      "max_temp_c": 52.24,
+      "delta_t_c": 9.04,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0018",
+      "row": 5,
+      "col": 0,
+      "bbox": [
+        8,
+        512,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Soiling",
+      "agent_category": "soiling",
+      "confidence": 0.739,
+      "top3": [
+        [
+          "Soiling",
+          0.7386
+        ],
+        [
+          "Cell-Multi",
+          0.1324
+        ],
+        [
+          "Cracking",
+          0.0631
+        ]
+      ],
+      "max_temp_c": 52.06,
+      "delta_t_c": 8.86,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0021",
+      "row": 5,
+      "col": 2,
+      "bbox": [
+        320,
+        512,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Hot-Spot-Multi",
+      "agent_category": "hotspot",
+      "confidence": 0.601,
+      "top3": [
+        [
+          "Hot-Spot-Multi",
+          0.6008
+        ],
+        [
+          "Hot-Spot",
+          0.1017
+        ],
+        [
+          "Soiling",
+          0.0774
+        ]
+      ],
+      "max_temp_c": 53.85,
+      "delta_t_c": 10.65,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 24,
+    "n_predicted_anomalies": 8,
+    "n_temperature_alerts": 0
+  }
+}

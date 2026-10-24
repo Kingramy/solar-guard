@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "scene_healthy_02",
+  "site": {
+    "name": "Demo Solar Park (fictional)",
+    "sector": "Sector 4",
+    "array": "B"
+  },
+  "image_size": {
+    "width": 632,
+    "height": 680
+  },
+  "temperature_source": "synthetic",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 41.72,
+  "detections": [
+    {
+      "id": "D-0008",
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        216,
+        176,
+        96,
+        160
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Vegetation",
+      "agent_category": "vegetation",
+      "confidence": 0.379,
+      "top3": [
+        [
+          "Vegetation",
+          0.3792
+        ],
+        [
+          "No-Anomaly",
+          0.2834
+        ],
+        [
+          "Offline-Module",
+          0.1677
+        ]
+      ],
+      "max_temp_c": 43.96,
+      "delta_t_c": 2.24,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 24,
+    "n_predicted_anomalies": 1,
+    "n_temperature_alerts": 0
+  }
+}

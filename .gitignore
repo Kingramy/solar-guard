@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Training and processed data (excluded as requested)
+data/
+data/*
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated outputs & runs
+demo/outputs/*
+!demo/outputs/.gitkeep
+demo/runs/*
+!demo/runs/.gitkeep
+
+# Environment and IDE settings
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,14 @@
+{
+  "Cell": "hotspot",
+  "Cell-Multi": "hotspot",
+  "Hot-Spot": "hotspot",
+  "Hot-Spot-Multi": "hotspot",
+  "Diode": "bypass_diode_failure",
+  "Diode-Multi": "bypass_diode_failure",
+  "Cracking": "cracking",
+  "Offline-Module": "offline_module",
+  "Soiling": "soiling",
+  "Shadowing": "shadowing",
+  "Vegetation": "vegetation",
+  "No-Anomaly": "none"
+}

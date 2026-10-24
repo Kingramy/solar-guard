@@ -1,0 +1,290 @@
+[
+  {
+    "row": 0,
+    "col": 0,
+    "bbox": [
+      8,
+      8,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 1,
+    "bbox": [
+      112,
+      8,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 2,
+    "bbox": [
+      216,
+      8,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 3,
+    "bbox": [
+      320,
+      8,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 4,
+    "bbox": [
+      424,
+      8,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 5,
+    "bbox": [
+      528,
+      8,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 0,
+    "bbox": [
+      8,
+      176,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 1,
+    "bbox": [
+      112,
+      176,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 2,
+    "bbox": [
+      216,
+      176,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 3,
+    "bbox": [
+      320,
+      176,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 4,
+    "bbox": [
+      424,
+      176,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 5,
+    "bbox": [
+      528,
+      176,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 0,
+    "bbox": [
+      8,
+      344,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 1,
+    "bbox": [
+      112,
+      344,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 2,
+    "bbox": [
+      216,
+      344,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 3,
+    "bbox": [
+      320,
+      344,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 4,
+    "bbox": [
+      424,
+      344,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 5,
+    "bbox": [
+      528,
+      344,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 0,
+    "bbox": [
+      8,
+      512,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 1,
+    "bbox": [
+      112,
+      512,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 2,
+    "bbox": [
+      216,
+      512,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 3,
+    "bbox": [
+      320,
+      512,
+      96,
+      160
+    ],
+    "true_class": "Soiling",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 4,
+    "bbox": [
+      424,
+      512,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 3,
+    "col": 5,
+    "bbox": [
+      528,
+      512,
+      96,
+      160
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  }
+]

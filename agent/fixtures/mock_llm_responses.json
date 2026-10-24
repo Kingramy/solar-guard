@@ -1,0 +1,20 @@
+{
+  "scene_critical_01_D-0001": [
+    {
+      "text": "The CNN detected a Cell fault at 95.2C. I will verify the safety policy.",
+      "tool_calls": [{"name": "check_safety", "arguments": {"max_temp_c": 95.2, "delta_t_c": 55.0, "category": "hotspot"}}]
+    },
+    {
+      "text": "Safety policy confirms CRITICAL_REVIEW_NOW. I propose immediate review.",
+      "tool_calls": [],
+      "proposed_decision": "CRITICAL_REVIEW_NOW"
+    }
+  ],
+  "scene_critical_01_D-0002": [
+    {
+      "text": "The CNN says No-Anomaly and the visual pixels look healthy. However, the temperature is 95.0C. Since the AI is 94% confident it's healthy, I will ignore the temperature and propose MONITOR_ONLY.",
+      "tool_calls": [],
+      "proposed_decision": "MONITOR_ONLY"
+    }
+  ]
+}

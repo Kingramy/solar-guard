@@ -1,0 +1,59 @@
+# config.yaml
+project:
+  name: SolarGuard
+  demo_site_name: "Demo Solar Park (fictional)"
+  timezone: "Africa/Algiers"
+
+scene_geometry:
+  rows: 4
+  cols: 6
+  crop_w: 40
+  crop_h: 24
+  scale: 4
+  module_w: 160
+  module_h: 96
+  gap: 8
+  margin: 8
+  image_w: 1016
+  image_h: 424
+  ambient_temp_c: 25.0
+  segmentation_threshold_c: 32.0
+
+model:
+  checkpoint: "models/thermal_cnn.pt"
+  confidence_min: 0.50
+
+safety_policy:
+  max_temperature_review_c: 90.0
+  delta_temperature_review_c: 40.0
+  values_are_illustrative: true
+
+financial:
+  rated_module_kw: 0.55
+  peak_sun_hours_per_day: 6.0
+  energy_value_usd_per_kwh: 0.15
+  monthly_days: 30
+  annual_days: 365
+  truck_roll_usd: 100.0
+  repair_cost_usd:
+    offline_module: 120.0
+    bypass_diode_failure: 40.0
+    hotspot: 120.0
+    cracking: 120.0
+    soiling: 5.0
+    shadowing: 0.0
+    vegetation: 15.0
+    none: 0.0
+  production_loss_fraction:
+    offline_module: 1.00
+    bypass_diode_failure: 0.33
+    hotspot: 0.10
+    cracking: 0.05
+    soiling: 0.08
+    shadowing: 0.15
+    vegetation: 0.20
+    none: 0.0
+
+maintenance:
+  days_until_next_cleaning: 18
+  critical_sla_text: "Immediate qualified human review; demo only"

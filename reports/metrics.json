@@ -1,0 +1,9 @@
+{
+  "test_size": 3000,
+  "accuracy_12_class": 0.79,
+  "macro_f1_12_class": 0.6572,
+  "accuracy_binary_faulty": 0.923,
+  "f1_binary_faulty": 0.9222,
+  "accuracy_8_category_agent": 0.8193,
+  "macro_f1_8_category_agent": 0.6974
+}
