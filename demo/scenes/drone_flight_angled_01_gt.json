@@ -1,0 +1,362 @@
+[
+  {
+    "row": 0,
+    "col": 0,
+    "polygon": [
+      [
+        66,
+        64
+      ],
+      [
+        100,
+        55
+      ],
+      [
+        114,
+        107
+      ],
+      [
+        79,
+        116
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 1,
+    "polygon": [
+      [
+        108,
+        53
+      ],
+      [
+        143,
+        44
+      ],
+      [
+        157,
+        96
+      ],
+      [
+        122,
+        105
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 2,
+    "polygon": [
+      [
+        151,
+        42
+      ],
+      [
+        186,
+        33
+      ],
+      [
+        199,
+        85
+      ],
+      [
+        164,
+        94
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 3,
+    "polygon": [
+      [
+        193,
+        31
+      ],
+      [
+        228,
+        22
+      ],
+      [
+        242,
+        74
+      ],
+      [
+        207,
+        83
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 0,
+    "col": 4,
+    "polygon": [
+      [
+        236,
+        20
+      ],
+      [
+        271,
+        11
+      ],
+      [
+        284,
+        63
+      ],
+      [
+        250,
+        72
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": true
+  },
+  {
+    "row": 1,
+    "col": 0,
+    "polygon": [
+      [
+        82,
+        128
+      ],
+      [
+        117,
+        119
+      ],
+      [
+        130,
+        171
+      ],
+      [
+        96,
+        180
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 1,
+    "polygon": [
+      [
+        125,
+        117
+      ],
+      [
+        160,
+        108
+      ],
+      [
+        173,
+        160
+      ],
+      [
+        138,
+        169
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 2,
+    "polygon": [
+      [
+        167,
+        106
+      ],
+      [
+        202,
+        97
+      ],
+      [
+        216,
+        149
+      ],
+      [
+        181,
+        158
+      ]
+    ],
+    "true_class": "Cell",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 3,
+    "polygon": [
+      [
+        210,
+        95
+      ],
+      [
+        245,
+        86
+      ],
+      [
+        258,
+        138
+      ],
+      [
+        223,
+        147
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 1,
+    "col": 4,
+    "polygon": [
+      [
+        253,
+        84
+      ],
+      [
+        287,
+        75
+      ],
+      [
+        301,
+        127
+      ],
+      [
+        266,
+        136
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 0,
+    "polygon": [
+      [
+        99,
+        192
+      ],
+      [
+        133,
+        183
+      ],
+      [
+        147,
+        235
+      ],
+      [
+        112,
+        244
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 1,
+    "polygon": [
+      [
+        141,
+        181
+      ],
+      [
+        176,
+        172
+      ],
+      [
+        190,
+        224
+      ],
+      [
+        155,
+        233
+      ]
+    ],
+    "true_class": "Diode",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 2,
+    "polygon": [
+      [
+        184,
+        170
+      ],
+      [
+        219,
+        161
+      ],
+      [
+        232,
+        213
+      ],
+      [
+        197,
+        222
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 3,
+    "polygon": [
+      [
+        226,
+        159
+      ],
+      [
+        261,
+        150
+      ],
+      [
+        275,
+        202
+      ],
+      [
+        240,
+        211
+      ]
+    ],
+    "true_class": "Offline-Module",
+    "injected_override": false
+  },
+  {
+    "row": 2,
+    "col": 4,
+    "polygon": [
+      [
+        269,
+        148
+      ],
+      [
+        304,
+        139
+      ],
+      [
+        317,
+        191
+      ],
+      [
+        283,
+        200
+      ]
+    ],
+    "true_class": "No-Anomaly",
+    "injected_override": false
+  }
+]

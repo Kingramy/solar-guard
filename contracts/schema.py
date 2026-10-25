@@ -24,9 +24,10 @@ class ImageSize(BaseModel):
 
 class DetectionItem(BaseModel):
     id: str = Field(min_length=1)
-    row: int = Field(ge=0, lt=4)
-    col: int = Field(ge=0, lt=6)
+    row: int = Field(ge=0)
+    col: int = Field(ge=0)
     bbox: list[int] = Field(min_length=4, max_length=4)
+    polygon: Optional[list[list[int]]] = None  # Optional 4-corner [[x1,y1],[x2,y2],[x3,y3],[x4,y4]] for angled drone panels
     hot_cell_bbox: Optional[list[int]] = None
     ml_class: AllowedMLClass
     agent_category: AllowedAgentCategory
@@ -45,7 +46,7 @@ class DetectionItem(BaseModel):
         return self
 
 class SceneSummary(BaseModel):
-    n_modules: int = 24
+    n_modules: int = Field(gt=0)
     n_predicted_anomalies: int = Field(ge=0)
     n_temperature_alerts: int = Field(ge=0)
 
@@ -54,7 +55,7 @@ class SceneDetectionsContract(BaseModel):
     scene_id: str = Field(min_length=1)
     site: SiteInfo
     image_size: ImageSize
-    temperature_source: Literal["synthetic", "radiometric"]
+    temperature_source: Literal["synthetic", "radiometric", "estimated_visual"]
     baseline_method: Literal["scene_module_median"]
     scene_baseline_temp_c: Optional[float] = None
     detections: list[DetectionItem]

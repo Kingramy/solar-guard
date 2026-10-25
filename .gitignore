@@ -33,3 +33,38 @@ demo/runs/*
 
 # Logs
 *.log
+
+
+# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+
+# Bulk dataset files (20,000 images & processed npz)
+data/raw_repo/
+data/raw/
+data/processed/
+
+# Ephemeral runtime outputs
+demo/runs/*.json
+demo/outputs/*.pdf
+demo/outputs/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Explicitly ensure deliverables are NOT ignored:
+!models/thermal_cnn.pt
+!models/drone_unet.pt
+!reports/metrics.json
+!reports/classification_report.txt
+!reports/confusion_matrix.png
+!demo/scenes/*.npz
+!demo/scenes/*.json
+!demo/scenes/*.png
+!agent/fixtures/*.json
