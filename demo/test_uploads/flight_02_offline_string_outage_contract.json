@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "flight_02_offline_string_outage",
+  "site": {
+    "name": "Sahara Drone Inspection Sector",
+    "sector": "Sector 7 (Aerial)",
+    "array": "Drone-Wing-A"
+  },
+  "image_size": {
+    "width": 384,
+    "height": 256
+  },
+  "temperature_source": "radiometric",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 43.43,
+  "detections": [
+    {
+      "id": "D-0012",
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        148,
+        158,
+        51,
+        64
+      ],
+      "polygon": [
+        [
+          162,
+          158
+        ],
+        [
+          199,
+          168
+        ],
+        [
+          185,
+          222
+        ],
+        [
+          148,
+          212
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Cell",
+      "agent_category": "hotspot",
+      "confidence": 0.261,
+      "top3": [
+        [
+          "Cell",
+          0.2605
+        ],
+        [
+          "Vegetation",
+          0.203
+        ],
+        [
+          "No-Anomaly",
+          0.1443
+        ]
+      ],
+      "max_temp_c": 72.22,
+      "delta_t_c": 28.79,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0013",
+      "row": 2,
+      "col": 3,
+      "bbox": [
+        191,
+        169,
+        50,
+        64
+      ],
+      "polygon": [
+        [
+          204,
+          169
+        ],
+        [
+          241,
+          178
+        ],
+        [
+          227,
+          233
+        ],
+        [
+          191,
+          224
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.503,
+      "top3": [
+        [
+          "Offline-Module",
+          0.5034
+        ],
+        [
+          "No-Anomaly",
+          0.3076
+        ],
+        [
+          "Cell",
+          0.0591
+        ]
+      ],
+      "max_temp_c": 73.43,
+      "delta_t_c": 30.0,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 15,
+    "n_predicted_anomalies": 2,
+    "n_temperature_alerts": 0
+  }
+}

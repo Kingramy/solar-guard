@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "flight_04_mixed_anomalies_angled",
+  "site": {
+    "name": "Sahara Drone Inspection Sector",
+    "sector": "Sector 7 (Aerial)",
+    "array": "Drone-Wing-A"
+  },
+  "image_size": {
+    "width": 384,
+    "height": 256
+  },
+  "temperature_source": "radiometric",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 43.67,
+  "detections": [
+    {
+      "id": "D-0003",
+      "row": 0,
+      "col": 3,
+      "bbox": [
+        184,
+        18,
+        54,
+        65
+      ],
+      "polygon": [
+        [
+          184,
+          30
+        ],
+        [
+          220,
+          18
+        ],
+        [
+          238,
+          71
+        ],
+        [
+          202,
+          83
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Vegetation",
+      "agent_category": "vegetation",
+      "confidence": 0.427,
+      "top3": [
+        [
+          "Vegetation",
+          0.4272
+        ],
+        [
+          "Cell",
+          0.2886
+        ],
+        [
+          "Hot-Spot",
+          0.0554
+        ]
+      ],
+      "max_temp_c": 91.53,
+      "delta_t_c": 47.86,
+      "flag_reason": "model_and_temperature"
+    },
+    {
+      "id": "D-0005",
+      "row": 1,
+      "col": 0,
+      "bbox": [
+        79,
+        121,
+        54,
+        65
+      ],
+      "polygon": [
+        [
+          79,
+          133
+        ],
+        [
+          115,
+          121
+        ],
+        [
+          133,
+          174
+        ],
+        [
+          97,
+          186
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.444,
+      "top3": [
+        [
+          "Offline-Module",
+          0.4437
+        ],
+        [
+          "No-Anomaly",
+          0.3685
+        ],
+        [
+          "Vegetation",
+          0.0593
+        ]
+      ],
+      "max_temp_c": 50.58,
+      "delta_t_c": 6.91,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0006",
+      "row": 1,
+      "col": 1,
+      "bbox": [
+        121,
+        107,
+        54,
+        66
+      ],
+      "polygon": [
+        [
+          121,
+          119
+        ],
+        [
+          157,
+          107
+        ],
+        [
+          175,
+          161
+        ],
+        [
+          139,
+          173
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Diode",
+      "agent_category": "bypass_diode_failure",
+      "confidence": 0.322,
+      "top3": [
+        [
+          "Diode",
+          0.322
+        ],
+        [
+          "Cell-Multi",
+          0.2809
+        ],
+        [
+          "Cell",
+          0.1981
+        ]
+      ],
+      "max_temp_c": 75.53,
+      "delta_t_c": 31.86,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0007",
+      "row": 1,
+      "col": 2,
+      "bbox": [
+        163,
+        94,
+        53,
+        65
+      ],
+      "polygon": [
+        [
+          163,
+          106
+        ],
+        [
+          199,
+          94
+        ],
+        [
+          216,
+          147
+        ],
+        [
+          181,
+          159
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Shadowing",
+      "agent_category": "shadowing",
+      "confidence": 0.255,
+      "top3": [
+        [
+          "Shadowing",
+          0.2553
+        ],
+        [
+          "Offline-Module",
+          0.207
+        ],
+        [
+          "No-Anomaly",
+          0.19
+        ]
+      ],
+      "max_temp_c": 48.56,
+      "delta_t_c": 4.89,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0008",
+      "row": 1,
+      "col": 3,
+      "bbox": [
+        205,
+        80,
+        53,
+        66
+      ],
+      "polygon": [
+        [
+          205,
+          92
+        ],
+        [
+          240,
+          80
+        ],
+        [
+          258,
+          134
+        ],
+        [
+          223,
+          146
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Vegetation",
+      "agent_category": "vegetation",
+      "confidence": 0.286,
+      "top3": [
+        [
+          "Vegetation",
+          0.286
+        ],
+        [
+          "Offline-Module",
+          0.2313
+        ],
+        [
+          "No-Anomaly",
+          0.181
+        ]
+      ],
+      "max_temp_c": 49.66,
+      "delta_t_c": 5.99,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0009",
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        247,
+        67,
+        54,
+        66
+      ],
+      "polygon": [
+        [
+          247,
+          79
+        ],
+        [
+          283,
+          67
+        ],
+        [
+          301,
+          120
+        ],
+        [
+          264,
+          133
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Cell-Multi",
+      "agent_category": "hotspot",
+      "confidence": 0.298,
+      "top3": [
+        [
+          "Cell-Multi",
+          0.2983
+        ],
+        [
+          "Cracking",
+          0.2089
+        ],
+        [
+          "Vegetation",
+          0.1832
+        ]
+      ],
+      "max_temp_c": 70.61,
+      "delta_t_c": 26.94,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0011",
+      "row": 2,
+      "col": 1,
+      "bbox": [
+        142,
+        170,
+        53,
+        66
+      ],
+      "polygon": [
+        [
+          142,
+          182
+        ],
+        [
+          177,
+          170
+        ],
+        [
+          195,
+          224
+        ],
+        [
+          160,
+          236
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.242,
+      "top3": [
+        [
+          "Offline-Module",
+          0.2425
+        ],
+        [
+          "Vegetation",
+          0.2291
+        ],
+        [
+          "No-Anomaly",
+          0.2085
+        ]
+      ],
+      "max_temp_c": 47.88,
+      "delta_t_c": 4.21,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0012",
+      "row": 2,
+      "col": 2,
+      "bbox": [
+        183,
+        157,
+        54,
+        65
+      ],
+      "polygon": [
+        [
+          183,
+          169
+        ],
+        [
+          220,
+          157
+        ],
+        [
+          237,
+          210
+        ],
+        [
+          201,
+          222
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Hot-Spot",
+      "agent_category": "hotspot",
+      "confidence": 0.544,
+      "top3": [
+        [
+          "Hot-Spot",
+          0.5444
+        ],
+        [
+          "Hot-Spot-Multi",
+          0.1261
+        ],
+        [
+          "No-Anomaly",
+          0.1159
+        ]
+      ],
+      "max_temp_c": 88.0,
+      "delta_t_c": 44.33,
+      "flag_reason": "model_and_temperature"
+    }
+  ],
+  "summary": {
+    "n_modules": 15,
+    "n_predicted_anomalies": 8,
+    "n_temperature_alerts": 2
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "scene_id": "flight_05_nominal_healthy_array",
+  "site": {
+    "name": "Sahara Drone Inspection Sector",
+    "sector": "Sector 7 (Aerial)",
+    "array": "Drone-Wing-A"
+  },
+  "image_size": {
+    "width": 384,
+    "height": 256
+  },
+  "temperature_source": "radiometric",
+  "baseline_method": "scene_module_median",
+  "scene_baseline_temp_c": 41.93,
+  "detections": [
+    {
+      "id": "D-0001",
+      "row": 0,
+      "col": 1,
+      "bbox": [
+        134,
+        24,
+        45,
+        61
+      ],
+      "polygon": [
+        [
+          142,
+          24
+        ],
+        [
+          179,
+          29
+        ],
+        [
+          171,
+          85
+        ],
+        [
+          134,
+          80
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.623,
+      "top3": [
+        [
+          "Offline-Module",
+          0.6231
+        ],
+        [
+          "No-Anomaly",
+          0.1638
+        ],
+        [
+          "Diode-Multi",
+          0.0848
+        ]
+      ],
+      "max_temp_c": 51.52,
+      "delta_t_c": 9.59,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0005",
+      "row": 1,
+      "col": 0,
+      "bbox": [
+        80,
+        83,
+        46,
+        60
+      ],
+      "polygon": [
+        [
+          89,
+          83
+        ],
+        [
+          126,
+          88
+        ],
+        [
+          118,
+          143
+        ],
+        [
+          80,
+          138
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Vegetation",
+      "agent_category": "vegetation",
+      "confidence": 0.277,
+      "top3": [
+        [
+          "Vegetation",
+          0.2774
+        ],
+        [
+          "No-Anomaly",
+          0.2331
+        ],
+        [
+          "Shadowing",
+          0.2105
+        ]
+      ],
+      "max_temp_c": 52.1,
+      "delta_t_c": 10.17,
+      "flag_reason": "model"
+    },
+    {
+      "id": "D-0009",
+      "row": 1,
+      "col": 4,
+      "bbox": [
+        254,
+        108,
+        47,
+        62
+      ],
+      "polygon": [
+        [
+          263,
+          108
+        ],
+        [
+          301,
+          114
+        ],
+        [
+          293,
+          170
+        ],
+        [
+          254,
+          164
+        ]
+      ],
+      "hot_cell_bbox": null,
+      "ml_class": "Offline-Module",
+      "agent_category": "offline_module",
+      "confidence": 0.585,
+      "top3": [
+        [
+          "Offline-Module",
+          0.5854
+        ],
+        [
+          "No-Anomaly",
+          0.2976
+        ],
+        [
+          "Vegetation",
+          0.0349
+        ]
+      ],
+      "max_temp_c": 51.65,
+      "delta_t_c": 9.72,
+      "flag_reason": "model"
+    }
+  ],
+  "summary": {
+    "n_modules": 15,
+    "n_predicted_anomalies": 3,
+    "n_temperature_alerts": 0
+  }
+}
